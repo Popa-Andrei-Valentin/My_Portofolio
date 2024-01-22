@@ -1,4 +1,12 @@
 #root {
   margin: 0 auto;
-  text-align: center;
+}
+
+.root-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template:
+          "jumbotron" 800px
+          "content" auto / 100%;
 }
