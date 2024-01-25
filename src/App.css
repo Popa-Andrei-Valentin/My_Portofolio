@@ -7,6 +7,6 @@
   height: 100%;
   display: grid;
   grid-template:
-          "jumbotron" 800px
+          "jumbotron" 400px
           "content" auto / 100%;
 }

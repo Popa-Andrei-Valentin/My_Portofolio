@@ -1,9 +1,36 @@
 .jumbotron-container {
-   min-height: 50vh;
-   width: 100%;
+   position: relative;
+   width: 90vw;
    display: flex;
    align-items: center;
    flex-direction: column;
+   border: 2px solid red;
+   overflow: hidden;
+}
+
+.dot {
+   width: 600px;
+   height: 600px;
+   background-color: red;
+   border-radius: 100%;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   transform: translateY(85%) translateX(-10%);
+}
+
+.-second {
+   z-index: -1;
+   background-color: yellow;
+   transform: translateY(75%) translateX(30%);
+}
+
+.-third {
+   z-index: -1;
+   left: 0;
+   top: 0;
+   background-color: rgb(0, 13, 128);
+   transform: translateY(-70%) translateX(-30%);
 }
 
 .jumbotron-copy {
