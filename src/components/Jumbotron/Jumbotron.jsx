@@ -32,8 +32,7 @@ export default function Jumbotron() {
             <div className='jumbotron-container'>
                 <div className='jumbotron-text'>
                     <h1>Hi, I'm Andrei</h1>
-                    <br/>
-                    <span>Creativity to Connectivity</span>
+                    <span>creativity to connectivity</span>
                 </div>
                 <div className='gradient-bg'>
                     <svg xmlns="http://www.w3.org/2000/svg">
