@@ -29,8 +29,8 @@ export default function Jumbotron() {
 
     return (
         <>
-            <div class='jumbotron-container'>
-                <h1>Popa Andrei</h1>
+            <div className='jumbotron-container'>
+                <h1>Hi, I'm Andrei </h1>
                 <div className='gradient-bg'>
                     <svg xmlns="http://www.w3.org/2000/svg">
                         <defs>
