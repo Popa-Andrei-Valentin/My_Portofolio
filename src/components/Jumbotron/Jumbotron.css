@@ -102,7 +102,7 @@ span {
 
    transform-origin: center center;
    animation: moveVertical 30s ease infinite;
-
+   animation-direction: alternate;
    opacity: 1;
 }
 
@@ -117,7 +117,7 @@ span {
 
    transform-origin: calc(50% - 400px);
    animation: moveInCircle 20s reverse infinite;
-
+   animation-direction: alternate;
    opacity: 1;
 }
 
@@ -132,7 +132,7 @@ span {
 
    transform-origin: calc(50% + 400px);
    animation: moveInCircle 40s linear infinite;
-
+   animation-direction: alternate;
    opacity: 1;
 }
 
@@ -147,7 +147,7 @@ span {
 
    transform-origin: calc(50% - 200px);
    animation: moveInCircle 40s ease infinite;
-
+   animation-direction: alternate;
    opacity: 0.7;
 }
 
@@ -162,7 +162,7 @@ span {
 
    transform-origin: calc(50% - 800px) calc(50% + 200px);
    animation: moveInCircle 20s ease infinite;
-
+   animation-direction: alternate;
    opacity: 1;
 }
 
