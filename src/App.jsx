@@ -1,13 +1,13 @@
-import Jumbotron from "./components/Jumbotron/Jumbotron.jsx";
+import Jumbotron from './components/Jumbotron/Jumbotron.jsx';
+import Content from './components/Content/Content.jsx'
 import './App.css'
-import ToggleBtn from "./components/ToggleBtn/ToggleBtn.jsx";
 
 function App() {
   return (
     <>
-        <div className="root-content">
-            <ToggleBtn />
+        <div className='root-content'>
             <Jumbotron />
+            <Content />
         </div>
     </>
   )
