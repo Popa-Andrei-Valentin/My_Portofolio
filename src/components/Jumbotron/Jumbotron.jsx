@@ -2,20 +2,6 @@ import './Jumbotron.css'
 import {useState, useEffect, useRef} from "react";
 
 export default function Jumbotron() {
-    const mouseBubble = useRef(null);
-    const [curX, setCurX] = useState(0);
-    const [curY, setCurY] = useState(0);
-
-    useEffect(() => {
-        /** Update gradient position in order to be under the cursor */
-        window.addEventListener('mousemove', (event) => {
-            setCurX(() => event.clientX);
-            setCurY(() => event.clientY);
-            mouseBubble.current.style.left = `${curX}px`
-            mouseBubble.current.style.top = `${curY}px`
-        });
-    })
-
     return (
         <>
             <div className='jumbotron-container'>
@@ -39,7 +25,7 @@ export default function Jumbotron() {
                         <div className='g3'></div>
                         <div className='g4'></div>
                         <div className='g5'></div>
-                        <div ref={mouseBubble} className='interactive'></div>
+                        <div className='interactive'></div>
                     </div>
                 </div>
             </div>
