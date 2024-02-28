@@ -6,8 +6,12 @@ export default function Jumbotron() {
         <>
             <div className='jumbotron-container'>
                 <div className='jumbotron-text'>
-                    <h1>Hi, I'm Andrei</h1>
-                    <span>creativity to connectivity</span>
+                    <h1>Solution infrastructure for the internet</h1>
+                    <span>Hi, I'm Andrei.</span>
+										<div className='button-container'>
+											<button>Contact me</button>
+											<button>CV</button>
+										</div>
                 </div>
                 <div className='gradient-bg'>
                     <svg xmlns="http://www.w3.org/2000/svg">
