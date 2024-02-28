@@ -1,5 +1,4 @@
 import './Jumbotron.css'
-import {useState, useEffect, useRef} from "react";
 
 export default function Jumbotron() {
     return (
@@ -9,8 +8,8 @@ export default function Jumbotron() {
                     <h1>Solution infrastructure for the internet</h1>
                     <span>Hi, I'm Andrei.</span>
 										<div className='button-container'>
-											<button>Contact me</button>
-											<button>CV</button>
+											<button className='btn-standard'>Contact me</button>
+											<button className='btn-standard btn-cv'>CV</button>
 										</div>
                 </div>
                 <div className='gradient-bg'>

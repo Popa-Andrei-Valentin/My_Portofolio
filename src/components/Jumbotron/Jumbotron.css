@@ -178,3 +178,22 @@ span {
 
    opacity: 0.7;
 }
+
+.btn-standard {
+  display: inline-block;
+  border: none;
+  border-radius: 16.5px;
+  padding: 3px 16px 3px 16px;
+  outline: none;
+
+  text-decoration: none;
+  font-weight: 425;
+  font-size: 1rem;
+
+  color: white;
+  background-color: #539df2;
+}
+
+.btn-cv {
+  margin-left: 16px;
+}
