@@ -1,7 +1,10 @@
 .content-container {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template:
+    "about" 100vh
+    "experience"100vh
+    "projects"100vh/auto;
   align-items: center;
   background-color: #333;
   width: 100%;
@@ -27,4 +30,22 @@
 
 .content-container p{
   color: white;
+}
+
+.about-section {
+  display: grid;
+  grid-area: about;
+  justify-content: center;
+}
+
+.experience-section {
+  display: grid;
+  grid-area: experience;
+  justify-content: center;
+}
+
+.projects-section {
+  display: grid;
+  grid-area: projects;
+  justify-content: center;
 }
