@@ -2,8 +2,8 @@
   position: relative;
   display: grid;
   grid-template:
-    "about" 100vh
-    "experience"100vh
+    "about" 70vh
+    "experience"70vh
     "projects"100vh/auto;
   align-items: center;
   background-color: #333;
@@ -17,7 +17,7 @@
 }
 
 .content-text h2 {
-  font-size: 2rem;
+  font-size: 3.4rem;
   color: white;
   margin: 0;
   margin-block-start: 0;
@@ -25,7 +25,7 @@
 }
 
 .content-text p {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .content-container p{
