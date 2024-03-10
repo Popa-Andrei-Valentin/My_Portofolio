@@ -49,3 +49,10 @@
   grid-area: projects;
   justify-content: center;
 }
+
+.content-text .content-box{
+  border: 2px solid grey;
+  border-radius: 15px;
+  background: grey;
+  padding: 50px;
+}
