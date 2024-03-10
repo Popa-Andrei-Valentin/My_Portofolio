@@ -1,6 +1,6 @@
 #root {
   margin: 0 auto;
-  background-color: #333;
+  background-color: var(--main-background-color);
 }
 
 .root-content {

@@ -2,11 +2,11 @@
   position: relative;
   display: grid;
   grid-template:
-    "about" 70vh
-    "experience"70vh
+    "about" 100vh
+    "experience"100vh
     "projects"100vh/auto;
   align-items: center;
-  background-color: #333;
+  background-color: var(--main-background-color);
   width: 100%;
 }
 
@@ -53,6 +53,6 @@
 .content-text .content-box{
   border: 2px solid grey;
   border-radius: 15px;
-  background: grey;
+  background: #161b22;
   padding: 50px;
 }
