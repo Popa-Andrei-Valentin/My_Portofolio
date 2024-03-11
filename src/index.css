@@ -13,6 +13,10 @@
   --color-interactive: 140, 100, 255;
   --circle-size: 200%;
   --blending: hard-light;
+  --heading-size: 4rem;
+  --subtitle-size: 2rem;
+  --subheading-size: 2rem;
+  --paragraph-size: 1.5rem;
 }
 
 body {
