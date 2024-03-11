@@ -61,15 +61,17 @@ h1 {
   color: white;
   opacity: 0.9;
   user-select: none;
-  font-size: 5.7rem;
+  font-size: var(--heading-size);
   line-height: 1;
   width: 90%;
 }
 
-span {
-   font-weight: 400;
+h2 {
+   margin-top: 1rem;
+   margin-bottom: 0;
+   font-weight: 700;
    color: white;
-   font-size: 2em;
+   font-size: var(--subtitle-size);
    opacity: 0.9;
    user-select: none;
 }
@@ -187,9 +189,9 @@ span {
   outline: none;
 
   text-decoration: none;
-  font-weight: 425;
-  font-size: 1rem;
-
+  font-weight: 700;
+  font-size: var(--button-text-size);
+  margin-top: 1rem;
   color: white;
   background-color: #539df2;
 }
