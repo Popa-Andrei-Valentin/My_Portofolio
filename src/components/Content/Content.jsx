@@ -8,7 +8,7 @@ export default function Content () {
 					<div className='content-text'>
 						<h2>Experience</h2>
 						<div className='content-box'>
-							<p>Working as a software developer with a focus on the frontend side for <b>two years</b> has been a transformative journey, blending creativity with technical skill. I've navigated through an ever-evolving landscape of web technologies, honing abilities in various modern frameworks such as <b>React</b> and <b>Vue.js</b>.</p>
+							<p>Working as a software developer with a focus on the frontend side for <b>two years</b> has been a transformative journey, blending creativity with technical skills. I've navigated through an ever-evolving landscape of web technologies, honing abilities in various modern frameworks such as <b>React</b> and <b>Vue.js</b>.</p>
 						</div>
 					</div>
 				</div>
