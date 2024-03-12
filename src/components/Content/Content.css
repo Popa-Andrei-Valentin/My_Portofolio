@@ -51,22 +51,3 @@
   grid-area: projects;
   justify-content: center;
 }
-
-.experience-container {
-  border: 2px solid rgb(100,116,139,0.1);
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
-
-.experience-title {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  color: white;
-}
-
-.experience-title header {
-  font-weight: 100;
-  color: rgb(100,116,139,1);
-}
