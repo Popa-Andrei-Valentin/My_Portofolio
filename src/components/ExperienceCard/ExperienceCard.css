@@ -5,7 +5,12 @@
   border-radius: 10px;
 }
 
+.experience-container p {
+  font-size: calc(var(--text-m)*0.8);
+}
+
 .experience-title {
+  align-items: center;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -13,6 +18,11 @@
 }
 
 .experience-title header {
+  font-size: var(--text-m)/2;
   font-weight: 100;
   color: rgb(100,116,139,1);
+}
+
+.experience-title span {
+  font-size: var(--text-m);
 }
