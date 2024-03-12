@@ -61,7 +61,7 @@ h1 {
   color: white;
   opacity: 0.9;
   user-select: none;
-  font-size: var(--heading-size);
+  font-size: var(--text-xl);
   line-height: 1;
   width: 90%;
 }
@@ -71,7 +71,7 @@ h2 {
    margin-bottom: 0;
    font-weight: 700;
    color: white;
-   font-size: var(--subtitle-size);
+   font-size: var(--text-l);
    opacity: 0.9;
    user-select: none;
 }
@@ -190,7 +190,7 @@ h2 {
 
   text-decoration: none;
   font-weight: 700;
-  font-size: var(--button-text-size);
+  font-size: var(--text-s);
   margin-top: 1rem;
   color: white;
   background-color: #539df2;
