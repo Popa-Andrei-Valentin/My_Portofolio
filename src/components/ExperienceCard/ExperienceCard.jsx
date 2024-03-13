@@ -1,9 +1,12 @@
 import './ExperienceCard.css'
 
-export default function ExperienceCard ({date, title, description}) {
+export default function ExperienceCard ({date, title, description, hoverEvent}) {
 	return (
 		<>
-			<div className='experience-container'>
+			<div className='experience-container'
+				onMouseEnter={() => hoverEvent(true)}
+			  onMouseLeave={() => hoverEvent(false)}
+			>
 				<div className='experience-title'>
 					<header>{date}</header>
 					<span>{title}</span>
