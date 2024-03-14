@@ -26,3 +26,7 @@
 .experience-title span {
   font-size: var(--text-m);
 }
+
+.disabled {
+  opacity: 0.5;
+}

@@ -51,3 +51,7 @@
   grid-area: projects;
   justify-content: center;
 }
+
+.hovered {
+  border: 10px red solid;
+}

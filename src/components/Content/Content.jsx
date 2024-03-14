@@ -19,6 +19,7 @@ export default function Content () {
 							<p>Working as a software developer with a focus on the frontend side for <b>two years</b> has been a transformative journey, blending creativity with technical skills. I've navigated through an ever-evolving landscape of web technologies, honing abilities in various modern frameworks such as <b>React</b> and <b>Vue.js</b>.</p>
 							{contentText.map((content, key) => {
 								return <ExperienceCard
+									isHovered={isHovered}
 									hoverEvent={enableIsHoveredStyle}
 									key={key}
 									date={content.date}
