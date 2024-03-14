@@ -3,6 +3,7 @@
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .experience-container p {
