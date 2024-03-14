@@ -1,11 +1,18 @@
 import './ExperienceCard.css'
+import {useState} from "react";
 
 export default function ExperienceCard ({date, title, description, hoverEvent, isHovered}) {
+	const [selected, setSelected] = useState(false);
+	function triggerEvent (value) {
+		setSelected(value);
+		hoverEvent(value);
+	}
+
 	return (
 		<>
-			<div className={'experience-container' + (isHovered ? ' disabled' : '')}
-				onMouseEnter={() => hoverEvent(true)}
-			  onMouseLeave={() => hoverEvent(false)}
+			<div className={'experience-container' + (isHovered && !selected ? ' disabled' : '') + (selected ? ' selected' : '')}
+				onMouseEnter={() => triggerEvent(true)}
+			  onMouseLeave={() => triggerEvent(false)}
 			>
 				<div className='experience-title'>
 					<header>{date}</header>

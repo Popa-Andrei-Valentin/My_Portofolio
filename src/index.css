@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   --main-background-color: #0d1117;
+  --selected-color: #292f44;
   --color-bg1: rgba(2,50,128,1);
   --color-bg2: rgba(10,151,220,1);
   --color1: 18, 113, 255;

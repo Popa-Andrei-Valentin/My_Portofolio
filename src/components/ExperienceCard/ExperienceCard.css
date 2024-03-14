@@ -3,7 +3,7 @@
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
-  transition: opacity 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .experience-container p {
@@ -30,4 +30,14 @@
 
 .disabled {
   opacity: 0.5;
+}
+
+
+.selected {
+  background-color: var(--selected-color);
+  cursor: pointer;
+}
+
+.selected span {
+  color: var(--color-bg2);
 }
