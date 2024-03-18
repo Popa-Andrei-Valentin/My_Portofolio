@@ -1,5 +1,6 @@
 import './ExperienceCard.css'
-import {useState} from "react";
+import {useState} from 'react';
+import ArrowUp from "../Icons/arrowUp.jsx";
 
 export default function ExperienceCard ({date, title, description, hoverEvent, isHovered}) {
 	const [selected, setSelected] = useState(false);
@@ -17,6 +18,7 @@ export default function ExperienceCard ({date, title, description, hoverEvent, i
 				<div className='experience-title'>
 					<header>{date}</header>
 					<span>{title}</span>
+					<ArrowUp />
 				</div>
 				<p>
 					{description}
