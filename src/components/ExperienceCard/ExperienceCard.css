@@ -42,6 +42,10 @@
   color: var(--color-bg2);
 }
 
+.selected svg{
+  fill: var(--color-bg2);
+}
+
 .external-arrow {
   width: 15px;
 }

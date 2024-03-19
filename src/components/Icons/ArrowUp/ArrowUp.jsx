@@ -1,3 +1,4 @@
+import './ArrowUp.css'
 export default function ArrowUp() {
 	return(
 		<>
