@@ -194,6 +194,7 @@ h2 {
   margin-top: 1rem;
   color: white;
   background-color: #539df2;
+  cursor: pointer;
 }
 
 .btn-cv {
