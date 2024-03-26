@@ -42,8 +42,13 @@
   color: var(--color-bg2);
 }
 
-.selected svg{
-  fill: var(--color-bg2);
+.selected svg path{
+  stroke: var(--color-bg2);
+}
+
+.selected svg {
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
 }
 
 .external-arrow {
