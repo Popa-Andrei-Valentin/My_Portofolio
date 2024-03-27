@@ -2,11 +2,15 @@ import './ExperienceCard.css'
 import {useState} from 'react';
 import ArrowUp from "../Icons/ArrowUp/ArrowUp.jsx";
 
-export default function ExperienceCard ({date, title, description, hoverEvent, isHovered}) {
+export default function ExperienceCard ({date, title, description, linkToOpen, hoverEvent, isHovered}) {
 	const [selected, setSelected] = useState(false);
 	function triggerEvent (value) {
 		setSelected(value);
 		hoverEvent(value);
+	}
+
+	function openLink (link) {
+		window.open(link, '_blank', 'noopener')
 	}
 
 	return (
@@ -14,6 +18,7 @@ export default function ExperienceCard ({date, title, description, hoverEvent, i
 			<div className={'experience-container' + (isHovered && !selected ? ' disabled' : '') + (selected ? ' selected' : '')}
 				onMouseEnter={() => triggerEvent(true)}
 			  onMouseLeave={() => triggerEvent(false)}
+			  onClick={() => openLink(linkToOpen)}
 			>
 				<div className='experience-title'>
 					<header>{date}</header>
