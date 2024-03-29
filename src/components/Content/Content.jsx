@@ -26,6 +26,7 @@ export default function Content () {
 									date={content.date}
 									title={content.title}
 									description={content.description}
+									techStack={content.techStack ? content.techStack : []}
 								/>
 							})}
 						</div>
