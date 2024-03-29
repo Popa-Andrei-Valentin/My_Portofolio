@@ -2,7 +2,7 @@ import './ExperienceCard.css'
 import {useState} from 'react';
 import ArrowUp from "../Icons/ArrowUp/ArrowUp.jsx";
 
-export default function ExperienceCard ({date, title, description, linkToOpen, hoverEvent, isHovered}) {
+export default function ExperienceCard ({date, title, description, linkToOpen, hoverEvent, isHovered, techStack = []}) {
 	const [selected, setSelected] = useState(false);
 	function triggerEvent (value) {
 		setSelected(value);
@@ -28,6 +28,11 @@ export default function ExperienceCard ({date, title, description, linkToOpen, h
 				<p>
 					{description}
 				</p>
+				<div className='tech-container'>
+					{techStack.map((tech, key) => {
+						return <div className='tech-buble' key={key}>{tech}</div>
+					})}
+				</div>
 			</div>
 		</>
 	)
