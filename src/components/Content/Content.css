@@ -2,15 +2,16 @@
   position: relative;
   display: grid;
   grid-template:
-    "about" 100vh
-    "experience"100vh
-    "projects"100vh/auto;
+    "about"auto
+    "experience"auto
+    "projects"auto/auto;
   align-items: center;
   background-color: var(--main-background-color);
   width: 100%;
 }
 
 .content-text {
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   max-width: 800px;
