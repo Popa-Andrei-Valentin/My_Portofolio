@@ -14,3 +14,18 @@ export const contentText = [
 		techStack: ['Javascript','HTML & CSS', 'Vue 2','Vue 3']
 	}
 ]
+
+export const projectText = [
+	{
+		linkToOpen: 'https://github.com/Popa-Andrei-Valentin/NatourNode',
+		title: 'Natour',
+		description: 'An awesome tour booking web app written in NodeJS, Express, MongoDB. Base project constructed in a course and then customised with the intention of learning the basics of NodeJs and backend development.',
+		techStack: ['Javascript','NodeJs','Express','MongoDB']
+	},
+	{
+		linkToOpen: 'https://github.com/Popa-Andrei-Valentin/Hippo-Report',
+		title: 'Hippo Report',
+		description: 'A web-based excel solution for finding and merging the values of duplicate fields. It combines the ingenuity of AG-Grid to display the data and highlight duplicate fields and XLSX package wich enables the processing of the excel in the browser, without the need of any server. Currently the project is only for personal use.',
+		techStack: ['Javascript','Typescript','Vue']
+	}
+]

@@ -1,6 +1,6 @@
 import './Content.css'
 import { useState } from "react";
-import { contentText } from "../../assets/content-text.js";
+import {contentText, projectText} from "../../assets/content-text.js";
 import ExperienceCard from "../ExperienceCard/ExperienceCard.jsx";
 
 export default function Content () {
@@ -37,7 +37,17 @@ export default function Content () {
 					<div className='content-text'>
 						<h2>Projects</h2>
 						<div className='content-box'>
-							<p>For placeholder text on websites, the most commonly used Latin text is "Lorem ipsum," which is a scrambled segment from a piece by Cicero. However, if you're looking for different Latin quotes that could serve as interesting, more unique placeholder text, here are a few classical Latin quotes along with their translations:</p>
+							{projectText.map((content, key) => {
+								return <ExperienceCard
+									linkToOpen={content.linkToOpen}
+									isHovered={isHovered}
+									hoverEvent={enableIsHoveredStyle}
+									key={key * 10}
+									title={content.title}
+									description={content.description}
+									techStack={content.techStack ? content.techStack : []}
+								/>
+							})}
 						</div>
 					</div>
 				</div>
