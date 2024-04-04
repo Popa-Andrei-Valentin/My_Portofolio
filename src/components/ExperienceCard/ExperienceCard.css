@@ -28,6 +28,10 @@
   font-size: var(--text-m);
 }
 
+.experience-title .no-date {
+  margin-left: -10px;
+}
+
 .disabled {
   opacity: 0.5;
 }

@@ -22,7 +22,7 @@ export default function ExperienceCard ({date, title, description, linkToOpen, h
 			>
 				<div className='experience-title'>
 					<header>{date}</header>
-					<span>{title}</span>
+					<span className={(!date ? 'no-date' : '')}>{title}</span>
 					<ArrowUp />
 				</div>
 				<p>
