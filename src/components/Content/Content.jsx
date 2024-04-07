@@ -56,7 +56,7 @@ export default function Content () {
 					<div className='content-text'>
 						<h2>More ?</h2>
 						<div className='content-box'>
-							<p>For placeholder text on websites, the most commonly used Latin text is "Lorem ipsum," which is a scrambled segment from a piece by Cicero. However, if you're looking for different Latin quotes that could serve as interesting, more unique placeholder text, here are a few classical Latin quotes along with their translations:</p>
+							<p>Want to discuss more or have something awesome that I should know of. Don't hesitate to contact me on my email</p>
 						</div>
 					</div>
 				</div>
