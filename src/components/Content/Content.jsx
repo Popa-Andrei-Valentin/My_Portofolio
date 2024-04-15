@@ -51,16 +51,6 @@ export default function Content () {
 						</div>
 					</div>
 				</div>
-
-				<div className='projects-section'>
-					<div className='content-text'>
-						<h2>More ?</h2>
-						<div className='content-box'>
-							<p>Want to discuss more or have something awesome that I should know of. Don't hesitate to contact me on my email</p>
-							<button>Contact me</button>
-						</div>
-					</div>
-				</div>
 			</div>
 		</>
 	)

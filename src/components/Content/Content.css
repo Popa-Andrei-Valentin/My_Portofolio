@@ -45,6 +45,7 @@
   display: grid;
   grid-area: experience;
   justify-content: center;
+  padding-bottom: 5rem;
 }
 
 .projects-section {
