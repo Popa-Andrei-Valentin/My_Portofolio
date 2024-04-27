@@ -35,7 +35,7 @@ export default function Content () {
 
 				<div className='experience-section'>
 					<div className='content-text'>
-						<h2>Projects</h2>
+						<h2 style={{marginBottom: '1em'}}>Projects</h2>
 						<div className='content-box'>
 							{projectText.map((content, key) => {
 								return <ExperienceCard
