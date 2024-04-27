@@ -17,8 +17,8 @@ export default function ExperienceCard ({date, title, description, linkToOpen, h
 		<>
 			<div className={'experience-container' + (isHovered && !selected ? ' disabled' : '') + (selected ? ' selected' : '')}
 				onMouseEnter={() => triggerEvent(true)}
-			  onMouseLeave={() => triggerEvent(false)}
-			  onClick={() => openLink(linkToOpen)}
+				onMouseLeave={() => triggerEvent(false)}
+				onClick={() => openLink(linkToOpen)}
 			>
 				<div className='experience-title'>
 					<header>{date}</header>
