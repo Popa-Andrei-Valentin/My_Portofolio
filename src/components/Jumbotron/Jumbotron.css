@@ -103,11 +103,16 @@ h2 {
    height: var(--circle-size);
    top: calc(50% - var(--circle-size) / 2);
    left: calc(50% - var(--circle-size) / 2);
-
    transform-origin: center center;
    animation: moveVertical 30s ease infinite;
    animation-direction: alternate;
    opacity: 1;
+
+/** Enable GPU usage instead of CPU **/
+   will-change: transform;
+   transform: translateZ(0);
+   -webkit-transform: translateZ(0);
+   -ms-transform: translateZ(0);
 }
 
 .gradients-container .g2 {
@@ -123,6 +128,12 @@ h2 {
    animation: moveInCircle 20s reverse infinite;
    animation-direction: alternate;
    opacity: 1;
+
+/** Enable GPU usage instead of CPU **/
+   will-change: transform;
+   transform: translateZ(0);
+   -webkit-transform: translateZ(0);
+   -ms-transform: translateZ(0);
 }
 
 .gradients-container .g3 {
@@ -195,6 +206,12 @@ h2 {
   color: white;
   background-color: #539df2;
   cursor: pointer;
+  transition: background-color 100ms linear;
+}
+
+.btn-standard:hover {
+    background-color: #3870af;
+    transition: background-color 100ms linear;
 }
 
 .btn-cv {
