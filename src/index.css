@@ -47,3 +47,18 @@
 body {
   margin: 0;
 }
+
+body::-webkit-scrollbar {
+  width: 0.8em;
+  background: var(--main-background-color);
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(var(--color2));
+  height:30px;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track-piece
+{
+  display:none;
+}
