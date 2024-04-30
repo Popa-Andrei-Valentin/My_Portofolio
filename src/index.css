@@ -13,6 +13,7 @@
   --color-bg2: rgba(10,151,220,1);
   --color1: 72, 12, 255;
   --color2: 255, 91, 74;
+  --color2-darker: 255, 60, 74;
   --color3: 18, 184, 255;
   --color4: 255, 233, 70;
   --color5: 180, 180, 50;
@@ -28,6 +29,12 @@
   --text-m: 1.48rem;
   --text-s: 0.91rem;
 
+  @media(max-width: 800px) {
+    --text-xl: 2.5rem;
+    --text-l: 1.48rem;
+    --text-m: 0.88rem;
+    --text-s: 0.55  rem;
+  }
   /*
     =====================
           MISC.

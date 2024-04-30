@@ -204,13 +204,13 @@ h2 {
   font-size: var(--text-s);
   margin-top: 1rem;
   color: white;
-  background-color: #539df2;
+  background-color: rgba(var(--color2));
   cursor: pointer;
   transition: background-color 100ms linear;
 }
 
 .btn-standard:hover {
-    background-color: #3870af;
+    background-color: rgba(var(--color2-darker));
     transition: background-color 100ms linear;
 }
 
