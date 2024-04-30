@@ -6,7 +6,7 @@ export default function Jumbotron() {
         <>
             <div className='jumbotron-container'>
                 <div className='jumbotron-text'>
-                    <h1>Solution infrastructure for the internet</h1>
+                    <h1>Empowering digital solutions</h1>
                     <h2>Hi, I'm Andrei.</h2>
                     <div className='button-container'>
                         <button className='btn-standard'>Contact me</button>
