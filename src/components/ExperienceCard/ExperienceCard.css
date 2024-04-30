@@ -43,11 +43,12 @@
 }
 
 .selected span {
-  color: var(--color-bg2);
+  color: rgba(var(--color2),1);
 }
 
 .selected svg path{
-  stroke: var(--color-bg2);
+  fill: rgba(var(--color2),1);
+  stroke: rgba(var(--color2),1);
 }
 
 .selected svg {
@@ -61,6 +62,7 @@
 
 .tech-container {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   gap: 0.3rem
 }
@@ -69,8 +71,8 @@
   width: auto;
   border-radius: 25px;
   padding: 4px 12px 4px 12px;
-  color: var(--color-bg2);
+  color: white;
   font-weight: 300;
-  background-color: rgba(4, 92, 129, 0.3);
+  background-color: rgba(var(--color2), 0.3);
   font-size: var(--text-s);
 }
