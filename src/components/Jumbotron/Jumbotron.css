@@ -224,3 +224,11 @@ h2 {
 .btn-cv {
   margin-left: 16px;
 }
+
+@media (max-width: 800px) {
+  .jumbotron-text {
+    align-items: flex-start;
+    text-align: start;
+    padding: 15px;
+  }
+}
