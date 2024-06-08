@@ -57,3 +57,10 @@
 .hovered {
   border: 10px red solid;
 }
+
+@media(max-width: 800px) {
+  .content-text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
