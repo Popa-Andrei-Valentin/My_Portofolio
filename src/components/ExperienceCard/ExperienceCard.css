@@ -7,7 +7,7 @@
 }
 
 .experience-container p {
-  font-size: calc(var(--text-m)*0.8);
+  font-size: var(--text-s);
 }
 
 .experience-title {
@@ -19,7 +19,7 @@
 }
 
 .experience-title header {
-  font-size: var(--text-m)/2;
+  font-size: var(--text-s);
   font-weight: 100;
   color: rgb(100,116,139,1);
 }
